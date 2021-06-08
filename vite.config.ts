@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-
+import proxy from './proxy'
 import vue from "@vitejs/plugin-vue";
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import path from "path";
@@ -28,15 +28,9 @@ export default defineConfig({
     // host: "localhost",
     port: 3001,
     // 是否自动在浏览器打开
-    open: false,
+    open: true,
     // 是否开启 https
     https: false,
-    proxy: {
-      //   '/api': {
-      // target: 'https://blog.csdn.net/weixin_45292658',
-      // changeOrigin: true,
-      // rewrite: path => path.replace(/^\/api/, '')
-      //   }
-    },
+    proxy,
   },
 });

@@ -11,3 +11,5 @@ yarn-error.log*
 pnpm-debug.log*
 package-lock
 yarn.lock
+package-lock.json
+proxy.ts
