@@ -1,0 +1,7 @@
+{
+  "i18n-ally.localesPaths": [
+    "src/language",
+    "src/views/home/locales",
+    "src/views/login/locales"
+  ]
+}

@@ -25,7 +25,7 @@
     // 采用的模块系统
     "module": "esnext",
     // 编译输出目标 ES 版本
-    "target": "es5",
+    // "target": "es5",
     // 在表达式和声明上有隐含的any类型时报错
     "noImplicitAny": true,
     "moduleResolution": "Node",
