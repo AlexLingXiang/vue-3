@@ -1,0 +1,47 @@
+{
+  "name": "vite-admin",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "cross-env NODE_ENV=development vite",
+    "lint": "eslint \"{src,mock}/**/*.{vue,ts,tsx}\" --fix",
+    "preview": "vite build && vite preview --port 8088"
+  },
+  "homepage": "",
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "axios": "^0.21.1",
+    "digit-roll": "^1.1.8",
+    "echarts": "^5.0.2",
+    "el-plus-powerful-table": "^1.3.8",
+    "element-plus": "^1.0.2-beta.40",
+    "js-cookie": "^2.2.1",
+    "mockjs": "^1.1.0",
+    "normalize-wheel": "^1.0.1",
+    "nprogress": "^0.2.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "screenfull": "^5.1.0",
+    "vite": "^2.2.1",
+    "vue": "^3.0.11",
+    "vue-i18n": "^9.1.6",
+    "vue-router": "^4.0.3",
+    "vue-svgicon": "^3.2.9",
+    "vuex": "^4.0.0-rc.2",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "prettier": "^2.3.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-define-config": "^1.0.8",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.10.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vitejs/plugin-vue-jsx": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.11",
+    "sass": "^1.32.5",
+    "svg-sprite-loader": "^5.2.1"
+  }
+}
